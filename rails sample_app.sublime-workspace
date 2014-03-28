@@ -1,0 +1,420 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Ruby/Ruby.sublime-build",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"wr",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"f",
+				"Fetch: File"
+			],
+			[
+				"fe",
+				"Fetch: Manage"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"syn h",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"ANF: New File"
+			],
+			[
+				"emm",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"html",
+				"Snippet: HTML - HTML5 shiv"
+			],
+			[
+				"snipp",
+				"Snippet: Prototype"
+			],
+			[
+				"javascr",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 516.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/mattrose/Sites/rails_projects/sample_app/app/views/layouts/application.html.erb",
+		"/Users/mattrose/Library/Application Support/Sublime Text 3/Packages/RubyTest/TestConsole.hidden-tmTheme",
+		"/Users/mattrose/Sites/rails_projects/sample_app/app/helpers/application_helper.rb",
+		"/Users/mattrose/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/mattrose/Sites/rails_projects/sample_app/Gemfile",
+		"/Users/mattrose/Sites/rails_projects/sample_app/spec/spec_helper.rb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/Guardfile",
+		"/Users/mattrose/Sites/rails_projects/sample_app/app/helpers/app/views/layouts/application.html.erb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/.rspec",
+		"/Users/mattrose/Sites/rails_projects/sample_app/log/development.log",
+		"/Users/mattrose/Sites/rails_projects/sample_app/config/routes.rb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/app/views/static_pages/about.html.erb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/app/views/static_pages/help.html.erb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/config/database.yml",
+		"/Users/mattrose/Gemfile",
+		"/Users/mattrose/.bash_profile",
+		"/Users/mattrose/.profile",
+		"/Users/mattrose/.bashrc",
+		"/Users/mattrose/Sites/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/.gitignore",
+		"/Users/mattrose/Sites/rails_projects/sample_app/README.rdoc",
+		"/Users/mattrose/Sites/rails_projects/sample_app/config/initializers/secret_token.rb",
+		"/Users/mattrose/Sites/rails_projects/sample_app/README.md",
+		"/Users/mattrose/Sites/rails_projects/sample_app/Gemfile.rb",
+		"/Users/mattrose/demo_app/.gitignore",
+		"/Users/mattrose/demo_app/gemfile",
+		"/Users/mattrose/Desktop/chump.rb",
+		"/Users/mattrose/Sites/rails_projects/first_app/Gemfile",
+		"/Users/mattrose/Sites/rails_projects/first_app/README.md",
+		"/Users/mattrose/Sites/rails_projects/first_app/.gitignore",
+		"/Users/mattrose/Library/Application Support/Sublime Text 3/Packages/User/Fetch.sublime-settings",
+		"/Users/mattrose/Sites/jQuery/jQuery Test Site 001/index.html",
+		"/Users/mattrose/Sites/jQuery/test01/js/script.js",
+		"/Users/mattrose/Desktop/song_list.txt",
+		"/Users/mattrose/Sites/jQuery/test01/index.html",
+		"/Users/mattrose/Sites/treehouse-css/4-2/index.html",
+		"/Users/mattrose/Sites/treehouse-css/4-2/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/Flexbox Background 3/index.html",
+		"/Users/mattrose/Sites/treehouse-css/Flexbox Background 3/css/page-styles.css",
+		"/Users/mattrose/Sites/treehouse-css/Flexbox Background 3/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/Flexbox Background 2/index.html",
+		"/Users/mattrose/Sites/treehouse-css/Flexbox Background 2/css/page-styles.css",
+		"/Users/mattrose/Sites/treehouse-css/Flexbox Background 2/css/flexbox.css",
+		"/Users/mattrose/Sites/treehouse-css/4-1/index.html",
+		"/Users/mattrose/Sites/treehouse-css/4-1/css/flexbox.css",
+		"/Users/mattrose/Desktop/Sublime Text License",
+		"/Users/mattrose/Sites/treehouse-css/Self Test Projects/Project 1: Inline-Block Layout/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/Self Test Projects/Project 1: Inline-Block Layout/index.html",
+		"/Users/mattrose/Sites/treehouse-css/2-3/index.html",
+		"/Users/mattrose/Sites/treehouse-css/1-6/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/1-6/index.html",
+		"/Users/mattrose/Sites/treehouse-css/self test projects/project 1: inline-block layout/index.html",
+		"/Users/mattrose/Sites/treehouse-css/self test projects/project 1: inline-block layout/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/1-3/index.html",
+		"/Users/mattrose/Sites/treehouse-css/1-5/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/Self Test Projects/Project 1: Inline-Block Layout/resources/basic-content.html",
+		"/Users/mattrose/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/mattrose/Library/Application Support/Sublime Text 2/Packages/View In Browser/Default (OSX).sublime-keymap",
+		"/Users/mattrose/Sites/treehouse-css/Self Test Projects/Project 1: Inline-Block Layout/Project Description",
+		"/Users/mattrose/Sites/treehouse-css/3-4/css/style-final.css",
+		"/Users/mattrose/Sites/treehouse-css/3-4/index-final.html",
+		"/Users/mattrose/Sites/treehouse-css/3-4/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/3-4/index.html",
+		"/Users/mattrose/Sites/treehouse-css/3-3/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/3-3/index.html",
+		"/Users/mattrose/Sites/treehouse-css/3-2/index.html",
+		"/Users/mattrose/Sites/treehouse-css/3-2/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/3-3/index-finished.html",
+		"/Users/mattrose/Sites/treehouse-css/3-3/css/style-finished.css",
+		"/Users/mattrose/Sites/treehouse-css/3-3/css/style2.css",
+		"/Users/mattrose/Sites/treehouse-css/3-2/css/style2.css",
+		"/Users/mattrose/Downloads/3-3/start/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/3-1/index.html",
+		"/Users/mattrose/Sites/treehouse-css/3-1/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/2-5/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/2-5/index.html",
+		"/Users/mattrose/Downloads/2-5/style.css",
+		"/Users/mattrose/Sites/treehouse-css/2-5/css/normalize.css",
+		"/Users/mattrose/Sites/treehouse-css/2-4/index.html",
+		"/Users/mattrose/Sites/treehouse-css/2-4/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/2-4/css/normalize.css",
+		"/Users/mattrose/Sites/treehouse-css/2-3/css/normalize.css",
+		"/Users/mattrose/Sites/treehouse-css/2-3/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/2-2/index.html",
+		"/Users/mattrose/Sites/treehouse-css/2-2/css/style.css",
+		"/Users/mattrose/Sites/treehouse-css/2-2/css/normalize.css",
+		"/Users/mattrose/Downloads/2-2/start/index.html",
+		"/Users/mattrose/Sites/treehouse-css/2-1/css/normalize.css",
+		"/Users/mattrose/Sites/treehouse-css/1-5/index.html",
+		"/Users/mattrose/Desktop/LARC-Website.sublime-workspace",
+		"/Users/mattrose/Desktop/style.css",
+		"/Volumes/e$/LARC Web Site/wp-content/themes/TTU LARC/functions.php",
+		"/Volumes/e$/LARC Web Site/includes/css/normalize.css",
+		"/Volumes/e$/LARC Web Site/wp-content/themes/TTU LARC/header.php",
+		"/Volumes/e$/LARC Web Site/includes/css/global_LARC.css",
+		"/Users/mattrose/Library/Application Support/Sublime Text 2/Packages/User/Snippets/HTML/script-source.sublime-snippet",
+		"/Users/mattrose/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Volumes/e$/LARC Web Site/includes/css/LARCStylesheet.css",
+		"/Volumes/e$/LARC Web Site/wp-content/themes/TTU LARC/first_friday_art_trail_post_template.php",
+		"/Volumes/e$/LARC Web Site/index.php",
+		"/Users/mattrose/Desktop/LARC-Website.sublime-project",
+		"/Users/mattrose/Sites/foundation/3-blockquote.html",
+		"/Users/mattrose/Sites/foundation/css/app.css",
+		"/Users/mattrose/Sites/foundation/3-typography.html",
+		"/Users/mattrose/Sites/foundation/nestedgrids-start.html",
+		"/Users/mattrose/Sites/foundation/grid.html",
+		"/Users/mattrose/Sites/foundation/blockgrid.html",
+		"/Users/mattrose/Sites/foundation/gridchallenge.html",
+		"/Volumes/e$/LARC Web Site/wp-content/themes/TTU LARC/front-page-new.php",
+		"/Volumes/e$/LARC Web Site/wp-content/themes/twentyfourteen/archive.php",
+		"/Volumes/e$/LARC Web Site/wp-content/themes/TTU LARC/first_friday_art_trail_template.php",
+		"/Volumes/e$/LARC Web Site/wp-content/themes/TTU LARC/first_friday_art_trail_post_template",
+		"/Users/mattrose/Sites/foundation/start.html",
+		"/Users/mattrose/Downloads/Ex_Files_U&R_Found_FREE/Exercise Files/Chapter 1/01_04/html document codes.txt",
+		"/Users/mattrose/Downloads/Ex_Files_U&R_Found_FREE/Exercise Files/Chapter 2/02_01/grid.html",
+		"/Users/mattrose/Downloads/Ex_Files_U&R_Found_FREE/Exercise Files/Chapter 1/01_04/start.html",
+		"/Users/mattrose/Desktop/Google Drive Archive/HTML 5 Positioning/page2.html",
+		"/Users/mattrose/Desktop/Google Drive Archive/HTML 5 Positioning/css/html5_positioning_test_styles.css",
+		"/Volumes/e$/LARC Web Site/wp-content/themes/TTU LARC/faculty_page_template.php",
+		"/Volumes/e$/LARC Web Site/wp-content/themes/TTU LARC/italy_study_abroad_template.php",
+		"/Volumes/e$/LARC Web Site/includes/css/italy_study_abroad_stylesheet.css",
+		"/Users/mattrose/Sites/simple_cms/db/migrate/20140212222135_alter_users.rb",
+		"/Users/mattrose/Sites/simple_cms/db/schema.rb",
+		"/Users/mattrose/Sites/simple_cms/db/migrate/20140211140642_do_nothing_yet.rb",
+		"/Users/mattrose/Sites/simple_cms/app/views/demo/hello.html.erb"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"drb",
+			"text",
+			"font",
+			"url",
+			"width",
+			"</em>",
+			"<em>",
+			"Society",
+			"^ ",
+			"During",
+			"organized",
+			"Groups",
+			"small",
+			"#}",
+			"italy_",
+			"italy/",
+			"italy-study-abroad",
+			"content"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</strong>",
+			"<strong>",
+			"large",
+			"small",
+			"ffat_",
+			"first_friday_art_trail/",
+			"italy"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "rails sample_app.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"",
+				"wp-content/themes/TTU LARC/header.php"
+			],
+			[
+				"global_",
+				"includes/css/global_LARC.css"
+			],
+			[
+				".css",
+				"includes/css/LARCStylesheet.css"
+			],
+			[
+				"first",
+				"wp-content/themes/TTU LARC/first_friday_art_trail_post_template.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Desktop/LARC-Website.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
