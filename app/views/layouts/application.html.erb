@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  	<title><% full_title(yield(:title)) %></title>
+  	<title><%= full_title(yield(:title)) %></title>
 	<!-- Runs the full_title method (defined in app/helpers/application_helper.rb). The method's argument is accessed by performing the yield operation on a :title symbol which, when present, will be defined inside the html.erb code for the page in question (e.g. app/views/static_pages/about.html.erb in the case of the "About Us" page). For pages with a :title symbol defined, this method will result in a title of "Ruby on Rails Tutorial Sample App | [Title]"; when no :title element is present, the method will return a title containing, simply, "Ruby on Rails Tutorial Sample App" -->
 
 	<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
@@ -12,10 +12,21 @@
 
   	<%= csrf_meta_tags %>
 
+  	<%= render 'layouts/shim' %>
+  	<!-- Looks in app/views/layouts for a file titled '_shim.html.erb', evaluates its contents, and inserts the results of those contents into the view. -->
 </head>
+
 <body>
 
-<%= yield %>
+	<%= render 'layouts/header' %>
+
+	<div class="container">
+
+		<%= yield %>
+
+		<%= render 'layouts/footer' %>
+
+	</div> <!-- /container -->
 
 </body>
 </html>

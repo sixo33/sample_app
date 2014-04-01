@@ -1,0 +1,111 @@
+@import "bootstrap";
+
+/* Mixins, Variables, Etc.
+============================= */
+
+$grayMediumLight: #EAEAEA;
+
+/* Universal
+============================= */
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 60px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.center {
+	text-align: center;
+	h1 {
+		margin-bottom: 10px
+	}
+}
+// This CSS declaration has been nested, one of the nice features of using SASS.
+
+/* Typography
+============================= */
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: -2px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.2em;
+	letter-spacing: -1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: normal;
+	color: $grayLight;
+	// Bootstrap configures a number of LESS variables for colors, including this one, $grayLight. Ordinarily we wouldn't be able to use these variables since we're using SCSS here, but we're using the "bootstrap-sass" gem in this project, which converts all of the LESS variables to their SCSS euqivalents.
+}
+
+
+p {
+	font-size: 1.1em;
+	line-height: 1.7em;
+}
+
+/* Header
+============================= */
+
+#logo {
+	float: left;
+	margin-right: 10px;
+	font-size: 1.7em;
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	padding-top: 9px;
+	font-weight: bold;
+	line-height: 1;
+	&:hover {
+	color: #FFF;
+	text-decoration: none;
+	}
+}
+// The ampersand in the declaration above tells SCSS to reference the parent element, in this case the #logo element.
+
+/* Footer
+============================= */
+
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid $grayMediumLight;
+	color: $grayLight;
+	a {
+		color: #555;
+		&:hover {
+			color: $grayDarker;
+			// Much like $grayLight (discussed above), $grayDarker is a Bootstrap-defined LESS variable that we can use in SCSS because of our use of the bootstrap-sass gem.
+		}
+	}
+	small {
+		float: left;
+	}
+	ul {
+		float: right;
+		list-style: none;
+		li {
+			float: left;
+			margin-left: 10px;
+		}
+	}
+}
